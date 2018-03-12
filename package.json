@@ -20,6 +20,10 @@
     "puppeteer": "1.0.0",
     "yargs": "^11.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shone-Wang/mstar-adsperformance.git"
+  },
   "keywords": [
     "morningstar",
     "ads",
