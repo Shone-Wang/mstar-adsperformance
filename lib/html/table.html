@@ -1,0 +1,52 @@
+<table class="table mds-data-table">
+    <caption class="mds-data-table__caption"></caption>
+    <thead class="mds-data-table__header">
+        <tr class="mds-data-table__row">
+            <th class="mds-data-table__header-cell" width="20%" scope="col">
+                <div class="mds-data-table__header-cell-inner"> Ad Id </div>
+            </th>
+            <th class="mds-data-table__header-cell" width="5%" scope="col">
+                <div class="mds-data-table__header-cell-inner"> Ad dest </div>
+            </th>
+            <th class="mds-data-table__header-cell" width="10%" scope="col">
+                <div class="mds-data-table__header-cell-inner"> Size </div>
+            </th>
+            <th class="mds-data-table__header-cell" width="15%" scope="col">
+                <div class="mds-data-table__header-cell-inner"> Position </div>
+            </th>
+            <th class="mds-data-table__header-cell" width="10%" scope="col">
+                <div class="mds-data-table__header-cell-inner false mds-data-table__header-cell--right"> Generate </div>
+            </th>
+            <th class="mds-data-table__header-cell" width="10%" scope="col">
+                <div class="mds-data-table__header-cell-inner false mds-data-table__header-cell--right"> Setup </div>
+            </th>
+            <th class="mds-data-table__header-cell" width="10%" scope="col">
+                <div class="mds-data-table__header-cell-inner false mds-data-table__header-cell--right"> Render </div>
+            </th>
+            <th class="mds-data-table__header-cell" width="10%" scope="col">
+                <div class="mds-data-table__header-cell-inner false mds-data-table__header-cell--right"> Renderadcontentstart </div>
+            </th>
+            <th class="mds-data-table__header-cell" width="10%" scope="col">
+                <div class="mds-data-table__header-cell-inner false mds-data-table__header-cell--right"> Renderadcontentend </div>
+            </th>
+        </tr>
+    </thead>
+    <tbody class="mds-data-table__body">
+    	{{#each @root}}
+			<tr class="mds-data-table__row tr-{{@index}}">
+				{{#each this}}					
+					{{#isNumber this}}
+						<td class="mds-data-table__cell false mds-data-table__cell--right  td-{{@index}}">
+							{{this}}
+						</td>
+					{{else}}
+						<td class="mds-data-table__cell td-{{@index}}">
+							{{this}}
+						</td>
+					{{/isNumber}}
+				{{/each}}
+			</tr>
+		{{/each}}
+       
+    </tbody>
+</table>
