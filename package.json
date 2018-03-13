@@ -1,6 +1,6 @@
 {
   "name": "mstar-adsperformance",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "auto monitoring morningstar web pages ads performance",
   "main": "lib/index.js",
   "scripts": {
