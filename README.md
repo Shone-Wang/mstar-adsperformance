@@ -1,10 +1,8 @@
-# Morningstar Ads Performance
+# Ads Performance Tool
 
-[Website](https://www.morningstar.com)
+## Welcome to mstar ads performance tool!
 
-## Welcome to morningstar ads performance tool!
-
-**mstar-adsperformance is a *complete web performance tool* that helps you measure the ads performance of morningstar website.**
+**mstar-adsperformance is a *complete web performance tool* that helps you measure the ads performance of special website  ads module bind with [data-mod="ad"].**
 
  ## Lets try it out
 
