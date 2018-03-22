@@ -1,12 +1,12 @@
 {
   "name": "mstar-adsperformance",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "auto monitoring morningstar web pages ads performance",
   "main": "lib/index.js",
   "scripts": {
     "build": "npm run buildhtml && npm run buildscss && babel lib -d dist",
     "start": "node dist/index.js",
-    "debug": "node --inspect-brk dist/index.js -n=5 http://www.morningstar.com http://www.morningstar.com/markets.html",
+    "debug": "node --inspect-brk dist/index.js -n=5 http://www.morningstar.com/stocks/xnys/ibm/quote.html -o=/Users/swang6/Documents/123.html",
     "buildhtml": "cpx \"lib/html/*.html\" \"dist/html\" ",
     "buildscss": "cpx \"lib/css/*.css\" \"dist/css\""
   },
